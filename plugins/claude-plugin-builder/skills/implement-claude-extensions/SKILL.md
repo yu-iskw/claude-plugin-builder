@@ -44,9 +44,11 @@ See `references/decision-framework.md` for detailed scoring guide.
 
 ### Best Practices (Anthropic Guidelines)
 
-- **START HERE - Complexity scoring & decision framework**: `references/decision-framework.md`
-- **Context management patterns**: `references/context-management.md`
-- **Evaluation strategy**: `references/evaluation-strategy.md`
+- **Core principles**: `../../docs/ANTHROPIC_BEST_PRACTICES.md`
+  - Central hub with links to detailed references:
+    - Complexity scoring & decision framework: `references/decision-framework.md`
+    - Context management patterns: `references/context-management.md`
+    - Evaluation strategy: `references/evaluation-strategy.md`
 
 ### Component Selection
 

@@ -25,8 +25,8 @@ When lint or format issues are detected or when you need to ensure code quality:
 
 ## Related Skills
 
-- Plugin verification: `../plugin-verification/SKILL.md`
-- Agent skills implementation: `../implement-agent-skills/SKILL.md`
+- Plugin verification: `../../../plugins/claude-plugin-builder/skills/plugin-verification/SKILL.md`
+- Agent skills implementation: `../../../plugins/claude-plugin-builder/skills/implement-agent-skills/SKILL.md`
 
 ## Sources
 

@@ -1,12 +1,11 @@
-# Claude Plugin Monorepo Template
+# Claude Plugin Builder
 
-Template repository for bootstrapping high-quality Claude Code plugins with shared CI/CD and testing infrastructure.
+A monorepo for building, managing, and verifying Claude Code plugins. This repository contains the `claude-plugin-builder` plugin, which provides specialized agents and skills to orchestrate the full extension development lifecycle.
 
 ## Key Features
 
 - **Standard Plugin Layout**: Follows best practices for Skills, Agents, Hooks, MCP, and LSP.
-- **Monorepo Ready**: Designed to host multiple plugins under the `plugins/` directory.
-- **Comprehensive Examples**: The `hello-world` plugin demonstrates every available extension point.
+- **Extension Orchestrator**: The `claude-plugin-builder` plugin helps you design, implement, and verify new plugins.
 - **Shared CI/CD**: Unified quality checks via `trunk` and GitHub Actions.
 - **Integration Tests**: Automated smoke tests that validate manifest schemas and component discovery across all plugins.
 
@@ -15,13 +14,12 @@ Template repository for bootstrapping high-quality Claude Code plugins with shar
 ```text
 .
 ├── plugins/                     # Container for all plugins
-│   └── hello-world/             # Comprehensive sample plugin
+│   └── claude-plugin-builder/   # Specialized plugin for extension development
 │       ├── .claude-plugin/      # Plugin metadata (plugin.json)
 │       ├── agents/              # Custom agent definitions
 │       ├── skills/              # Model-invoked skills (SKILL.md)
 │       ├── hooks/               # Event hook configurations
-│       ├── .mcp.json            # MCP server configuration
-│       └── .lsp.json            # LSP server configuration
+│       └── docs/                # Plugin-specific documentation
 ├── integration_tests/           # Shared testing harness
 │   ├── run.sh                   # Test orchestrator (scans plugins/)
 │   ├── validate-manifest.sh     # Manifest JSON schema validator
@@ -33,13 +31,20 @@ Template repository for bootstrapping high-quality Claude Code plugins with shar
 
 ## Quickstart
 
-1.  **Create a new repository** from this template.
-2.  **Explore the sample plugin** in `plugins/hello-world/` to see how components are defined.
-3.  **Run local checks**:
-    ```bash
-    make lint
-    make test-integration-docker
-    ```
+1. **Install the builder plugin** to your local Claude Code environment:
+
+   ```bash
+   claude plugin install --scope project ./plugins/claude-plugin-builder
+   ```
+
+2. **Use the agent** to start building a new plugin:
+   Ask Claude: "Use the claude-plugin-manager agent to design a new plugin for [your idea]"
+3. **Run local checks**:
+
+   ```bash
+   make lint
+   make test-integration-docker
+   ```
 
 ## Development
 

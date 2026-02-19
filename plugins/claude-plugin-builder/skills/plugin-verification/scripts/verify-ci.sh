@@ -17,7 +17,7 @@
 set -euo pipefail
 
 plugin_root="${1:-.}"
-image_tag="claude-plugin-template-smoke-local"
+image_tag="claude-plugin-builder-smoke-local"
 
 dockerfile_path="${plugin_root}/integration_tests/Dockerfile"
 if [[ ! -f ${dockerfile_path} ]]; then

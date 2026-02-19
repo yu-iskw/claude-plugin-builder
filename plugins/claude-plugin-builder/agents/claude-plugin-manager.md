@@ -31,7 +31,7 @@ Coordinate Claude Code plugin development workflows by routing component selecti
 
 ### Decision-Making Approach
 
-1. **Assess complexity**: Score task using decision framework (`.claude/skills/implement-claude-extensions/references/decision-framework.md`)
+1. **Assess complexity**: Score task using decision framework (see `../docs/ANTHROPIC_BEST_PRACTICES.md` for reference)
 2. **Choose simplest approach**:
    - Score 0-3 → Simple skill
    - Score 4-6 → Workflow skill
@@ -119,33 +119,32 @@ This agent orchestrates the following plugin management skills:
 5. **implement-agent-teams** - Set up and validate agent team configurations and collaboration flows.
 6. **implement-plugin** - Package plugins with manifest wiring, structure validation, and distribution guidance.
 7. **plugin-verification** - Run layered verification (component, manifest, structure, runtime, CI parity).
-8. **lint-fix** - Auto-fix code quality violations using Trunk's linting framework.
 
 ## Related Documentation
 
 ### Best Practices (Anthropic Guidelines)
 
-- **Complexity decision framework**: `.claude/skills/implement-claude-extensions/references/decision-framework.md`
-- **Context management patterns**: `.claude/skills/implement-claude-extensions/references/context-management.md`
-- **Evaluation strategy**: `.claude/skills/implement-claude-extensions/references/evaluation-strategy.md`
+- **Core principles and reference hub**: `../docs/ANTHROPIC_BEST_PRACTICES.md`
+  - Provides high-level guidance for orchestration
+  - Links to detailed references when deep implementation guidance is needed
 
 ### Component Selection
 
-- Extension type comparison: `.claude/skills/implement-claude-extensions/references/extension-types.md`
-- Decision guide: `.claude/skills/implement-claude-extensions/references/when-to-use.md`
-- Cross-component patterns: `.claude/skills/implement-claude-extensions/references/cross-component-patterns.md`
+- Extension type comparison: `../skills/implement-claude-extensions/references/extension-types.md`
+- Decision guide: `../skills/implement-claude-extensions/references/when-to-use.md`
+- Cross-component patterns: `../skills/implement-claude-extensions/references/cross-component-patterns.md`
 
 ### Lifecycle Understanding
 
-- Extension lifecycle: `.claude/skills/implement-claude-extensions/references/extension-lifecycle.md`
-- Testing strategies: `.claude/skills/implement-plugin/references/testing-strategies.md`
-- Distribution checklist: `.claude/skills/implement-plugin/references/plugin-distribution.md`
+- Extension lifecycle: `../skills/implement-claude-extensions/references/extension-lifecycle.md`
+- Testing strategies: `../skills/implement-plugin/references/testing-strategies.md`
+- Distribution checklist: `../skills/implement-plugin/references/plugin-distribution.md`
 
 ### Verification Standards
 
-- Validation levels: `.claude/skills/plugin-verification/references/validation-levels.md`
-- Common issues: `.claude/skills/plugin-verification/references/common-issues.md`
-- Component-specific verification: `.claude/skills/plugin-verification/references/verify-{hooks,skills,subagents,teams}.md`
+- Validation levels: `../skills/plugin-verification/references/validation-levels.md`
+- Common issues: `../skills/plugin-verification/references/common-issues.md`
+- Component-specific verification: `../skills/plugin-verification/references/verify-{hooks,skills,subagents,teams}.md`
 
 ## Invocation Examples
 

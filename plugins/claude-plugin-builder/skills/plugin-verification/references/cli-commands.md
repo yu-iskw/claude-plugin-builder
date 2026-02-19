@@ -17,7 +17,7 @@ References:
   - Install into user scope.
 
 - `claude --plugin-dir <plugin-root> plugin list`
-  - Discover plugin directly from a local directory (best fallback for template verification).
+  - Discover plugin directly from a local directory (best fallback for plugin verification).
 
 ## Validation-Oriented Command Sequence
 

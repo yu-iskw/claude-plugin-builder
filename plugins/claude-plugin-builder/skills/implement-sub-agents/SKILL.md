@@ -23,9 +23,8 @@ Create or update agent files under `agents/` with explicit role boundaries, mode
 
 ### Best Practices (Anthropic Guidelines)
 
-- **Complexity decision framework**: `../implement-claude-extensions/references/decision-framework.md`
-- **Context management patterns**: `../implement-claude-extensions/references/context-management.md`
-- **Evaluation strategy**: `../implement-claude-extensions/references/evaluation-strategy.md`
+- **Core principles**: `../../docs/ANTHROPIC_BEST_PRACTICES.md`
+  - Links to detailed references for complexity scoring, context management, and evaluation strategy
 
 ### Sub-Agent Design
 
