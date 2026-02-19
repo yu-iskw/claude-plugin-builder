@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugin-builder",
+  "version": "0.1.0",
+  "description": "A specialized Claude Code plugin for managing the development lifecycle of other Claude Code extensions. It provides an orchestrator agent and a suite of skills to help design, implement, and verify plugins.",
+  "owner": {
+    "name": "yu-iskw"
+  },
+  "plugins": [
+    {
+      "name": "claude-plugin-builder",
+      "description": "Orchestrate the full Claude Code plugin development lifecycle from design through verification and packaging.",
+      "version": "0.1.0",
+      "author": {
+        "name": "yu-iskw"
+      }
+    }
+  ]
+}
