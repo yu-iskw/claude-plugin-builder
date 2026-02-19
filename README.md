@@ -4,10 +4,23 @@ A monorepo for building, managing, and verifying Claude Code plugins. This repos
 
 ## Key Features
 
-- **Standard Plugin Layout**: Follows best practices for Skills, Agents, Hooks, MCP, and LSP.
-- **Extension Orchestrator**: The `claude-plugin-builder` plugin helps you design, implement, and verify new plugins.
+- **Standard Plugin Layout**: Follows Anthropic's best practices for Skills, Agents, Hooks, MCP, and LSP.
+- **Extension Orchestrator**: The `claude-plugin-manager` agent helps you design, implement, and verify new plugins.
+- **Specialized Skills**: A suite of modular skills for implementing specific extension components (see below).
 - **Shared CI/CD**: Unified quality checks via `trunk` and GitHub Actions.
 - **Integration Tests**: Automated smoke tests that validate manifest schemas and component discovery across all plugins.
+
+## Specialized Skills
+
+The `claude-plugin-builder` plugin includes several specialized skills to accelerate development:
+
+- **Implement Claude Extensions**: Decision framework for choosing the right extension type.
+- **Implement Agent Skills**: Authoring and maintaining `SKILL.md` definitions.
+- **Implement Sub-Agents**: Creating and validating subagent configurations.
+- **Implement Agent Teams**: Setting up collaborative multi-agent workflows.
+- **Implement Hooks**: Configuring command, prompt, and agent-level hooks.
+- **Implement Plugin**: Managing `plugin.json` manifests and packaging.
+- **Plugin Verification**: Comprehensive structure and runtime validation.
 
 ## Repository Layout
 
