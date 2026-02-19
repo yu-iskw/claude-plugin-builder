@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugin-builder",
+  "version": "0.1.0",
+  "description": "Orchestrate the full Claude Code plugin development lifecycle from design through verification and packaging.",
+  "owner": {
+    "name": "yu-iskw"
+  },
+  "plugins": [
+    {
+      "name": "claude-plugin-builder",
+      "description": "Orchestrate the full Claude Code plugin development lifecycle from design through verification and packaging.",
+      "version": "0.1.0",
+      "author": {
+        "name": "yu-iskw"
+      }
+    }
+  ]
+}

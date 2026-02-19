@@ -1,6 +1,6 @@
 {
   "name": "claude-plugin-builder",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Orchestrate the full Claude Code plugin development lifecycle from design through verification and packaging.",
   "author": {
     "name": "yu-iskw"
