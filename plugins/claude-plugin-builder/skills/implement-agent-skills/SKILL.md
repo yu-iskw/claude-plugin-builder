@@ -22,9 +22,8 @@ Create or update `skills/<skill-name>/SKILL.md` files with deterministic scope a
 
 ### Best Practices (Anthropic Guidelines)
 
-- **Complexity decision framework**: `../implement-claude-extensions/references/decision-framework.md`
-- **Context management patterns**: `../implement-claude-extensions/references/context-management.md`
-- **Evaluation strategy**: `../implement-claude-extensions/references/evaluation-strategy.md`
+- **Core principles**: `../../docs/ANTHROPIC_BEST_PRACTICES.md`
+  - Links to detailed references for complexity scoring, context management, and evaluation strategy
 
 ### Skill Design Patterns
 

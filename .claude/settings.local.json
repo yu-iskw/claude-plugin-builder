@@ -1,5 +1,6 @@
 {
   "permissions": {
     "allow": ["Bash(make lint:*)", "Bash(trunk check:*)", "Bash(bash:*)"]
-  }
+  },
+  "plugins": ["./plugins/claude-plugin-builder"]
 }

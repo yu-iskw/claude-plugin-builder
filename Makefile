@@ -22,5 +22,5 @@ format:
 
 .PHONY: test-integration-docker
 test-integration-docker:
-	docker build -f integration_tests/Dockerfile -t claude-plugin-template-smoke .
-	docker run --rm claude-plugin-template-smoke
+	docker build -f integration_tests/Dockerfile -t claude-plugin-builder-smoke .
+	docker run --rm claude-plugin-builder-smoke
