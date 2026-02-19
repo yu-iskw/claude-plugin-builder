@@ -47,7 +47,7 @@ The `claude-plugin-builder` plugin includes several specialized skills to accele
 1. **Install the builder plugin** to your local Claude Code environment:
 
    ```bash
-   claude plugin install --scope project ./plugins/claude-plugin-builder
+   claude plugin install --scope project claude-plugin-builder@claude-plugin-builder
    ```
 
 2. **Use the agent** to start building a new plugin:
